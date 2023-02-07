@@ -18,8 +18,8 @@
   "author": "59naga <i59naga@icloud.com> (http://berabou.me)",
   "license": "MIT",
   "dependencies": {
-    "jpeg-js": "git://github.com/59naga/jpeg-js.git#b52fdd73dfebcee63c88b9f0b9502ba2b9bfd155",
-    "pixel-util": "^0.0.2"
+    "jpeg-js": "0.4.4",
+    "react-native-pixel-util": "^1.1.0"
   },
   "devDependencies": {
     "brfs": "^1.4.1",

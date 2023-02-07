@@ -4,8 +4,8 @@
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
 // Dependencies
-const { PixelUtil } = require('pixel-util');
-const jpegJs = require('jpeg-js');
+import {PixelUtil} from 'react-native-pixel-util';
+import jpegJs from 'jpeg-js';
 
 class PixelJpg extends PixelUtil {
   parse(file) {
@@ -17,6 +17,10 @@ class PixelJpg extends PixelUtil {
       delete jpegData.data;
 
       for (var key in jpegData) {
+        if (key === 'width' || key === 'height') {
+          // to avoid `Cannot assign to read only property 'width' of object '#<ImageData>'` on Web
+          continue;
+        }
         var value = jpegData[key];
         image[key] = value;
       }
@@ -26,5 +30,5 @@ class PixelJpg extends PixelUtil {
   }
 }
 
-module.exports = new PixelJpg();
-module.exports.PixelJpg = PixelJpg;
+export default new PixelJpg();
+export {PixelJpg};
