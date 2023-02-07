@@ -1,7 +1,7 @@
 {
-  "name": "pixel-jpg",
-  "version": "0.0.1",
-  "description": "Parse JPEG to ImageData in cross-platform",
+  "name": "react-native-pixel-jpg",
+  "version": "1.0.0",
+  "description": "Parse JPEG to ImageData for React Native",
 
   "main": "src",
 
@@ -16,6 +16,13 @@
   },
 
   "author": "59naga <i59naga@icloud.com> (http://berabou.me)",
+  "contributors": [
+    {
+      "name": "Li Zheng",
+      "email": "flyskywhy@gmail.com",
+      "url": "https://github.com/flyskywhy"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "jpeg-js": "0.4.4",
@@ -30,15 +37,17 @@
   },
 
   "keywords": [
+    "imagedata",
+    "jpg",
     "pixel",
-    "jpg"
+    "react-native"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/59naga/pixel-jpg.git"
+    "url": "git+https://github.com/flyskywhy/react-native-pixel-jpg.git"
   },
   "bugs": {
-    "url": "https://github.com/59naga/pixel-jpg/issues"
+    "url": "https://github.com/flyskywhy/react-native-pixel-jpg/issues"
   },
-  "homepage": "https://github.com/59naga/pixel-jpg#readme"
+  "homepage": "https://github.com/flyskywhy/react-native-pixel-jpg#readme"
 }
