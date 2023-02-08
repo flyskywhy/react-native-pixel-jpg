@@ -35,7 +35,7 @@ pixelJpeg.parse(file).then(function(images){
 ```
 
 # Related projects
-* [react-native-pixel](https://github.com/flyskywhy/react-native-pixel)
+* [react-native-pixel-image](https://github.com/flyskywhy/react-native-pixel-image)
 * [react-native-pixel-util](https://github.com/flyskywhy/react-native-pixel-util)
 * [react-native-pixel-gif](https://github.com/flyskywhy/react-native-pixel-gif)
 * [react-native-pixel-png](https://github.com/flyskywhy/react-native-pixel-png)
